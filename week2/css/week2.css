@@ -85,7 +85,7 @@ a {
 }
 
 .bg-1 {
-  background: url(/week2/images-2023week2/background-img.png) no-repeat;
+  background: url(./week2/images-2023week2/background-img.png) no-repeat;
   background-size: cover;
   height: 920px;
 }
