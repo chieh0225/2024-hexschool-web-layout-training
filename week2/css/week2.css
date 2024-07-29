@@ -61,19 +61,22 @@ a {
   display: inline-block;
 }
 
-.py-52 {
-  padding: 52px 0px;
-}
-
 .gap-189 {
   gap: 189.83px;
 }
 .gap-134 {
   gap: 134px;
 }
+.gap-113 {
+  gap: 113px;
+}
 .gap-24 {
   gap: 24px;
 }
+.gap-20 {
+  gap: 20px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -87,11 +90,20 @@ a {
 .pl-4 {
   padding-left: 4px;
 }
+.pl-28 {
+  padding-left: 28.5px;
+}
 .pb-32 {
   padding-bottom: 32px;
 }
 .py-160 {
   padding: 160px 0px;
+}
+.py-96 {
+  padding: 96px 0px;
+}
+.py-52 {
+  padding: 52px 0px;
 }
 
 .mb-36 {
@@ -149,6 +161,9 @@ a {
 }
 .bg-white {
   background: white;
+}
+.bg-gradient {
+  background: linear-gradient(#050014 100%, #01021e 89%);
 }
 
 .footer {
