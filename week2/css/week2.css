@@ -107,6 +107,9 @@ a {
 .py-52 {
   padding: 52px 0px;
 }
+.py-40 {
+  padding: 40px 0px;
+}
 
 .mb-76 {
   margin-bottom: 76px;
@@ -148,6 +151,9 @@ a {
 .text-right {
   text-align: right;
 }
+.text-certer {
+  text-align: center;
+}
 
 .border {
   border-width: 1px;
@@ -175,17 +181,9 @@ a {
 .bg-white {
   background: white;
 }
+.bg-black {
+  background: #000000;
+}
 .bg-gradient {
   background: linear-gradient(#050014 100%, #01021e 89%);
-}
-
-.footer {
-  background: #000000;
-  width: 100%;
-}
-.footer_media_menu {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding: 64px 0px;
 }
