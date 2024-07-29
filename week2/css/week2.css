@@ -25,8 +25,14 @@ a {
   max-width: 1296px;
   margin: 0 auto;
 }
+.w-636 {
+  width: 636px;
+}
 .w-526 {
   width: 526px;
+}
+.w-306 {
+  width: 306px;
 }
 .w-128 {
   width: 128px;
@@ -38,6 +44,15 @@ a {
 
 .flex {
   display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-center {
   align-items: center;
@@ -53,13 +68,22 @@ a {
 .gap-189 {
   gap: 189.83px;
 }
+.gap-134 {
+  gap: 134px;
+}
 .gap-24 {
   gap: 24px;
 }
 .gap-16 {
   gap: 16px;
 }
+.gap-4 {
+  gap: 4px;
+}
 
+.p-16 {
+  padding: 16px;
+}
 .pl-4 {
   padding-left: 4px;
 }
@@ -81,6 +105,9 @@ a {
   word-spacing: nowrap;
 }
 
+.text-20 {
+  font-size: 20px;
+}
 .text-24 {
   font-size: 24px;
 }
@@ -102,6 +129,13 @@ a {
   text-align: right;
 }
 
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e3e3e3;
+  filter: drop-shadow(4px 4px 4px 0px rgba(0, 0, 0, 0.8));
+}
+
 .btn-white {
   background: #ffffff;
   border-radius: 32px;
@@ -112,6 +146,9 @@ a {
   background: url(../images-2023week2/background-img.png) no-repeat;
   background-size: cover;
   height: 920px;
+}
+.bg-white {
+  background: white;
 }
 
 .footer {
