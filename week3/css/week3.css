@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", "Noto Sans Traditional Chinese", sans-serif;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
   line-height: 1.5;
   background: #ffffff;
 }
@@ -26,6 +26,9 @@ a {
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
+}
+.w-80 {
+  width: 80px;
 }
 .w-48 {
   width: 48px;
@@ -53,6 +56,9 @@ a {
   display: inline-block;
 }
 
+.gap-64 {
+  gap: 64px;
+}
 .gap-48 {
   gap: 48px;
 }
@@ -63,6 +69,10 @@ a {
   gap: 22px;
 }
 
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 .pt-48 {
   padding-top: 48px;
 }
@@ -76,6 +86,9 @@ a {
 
 .text-36 {
   font-size: 36px;
+}
+.text-20 {
+  font-size: 20px;
 }
 
 .text-white {
@@ -107,6 +120,11 @@ a {
   .media-item {
     width: 40px;
     height: auto;
+  }
+
+  .hr {
+    margin-left: 36px;
+    margin-right: 36px;
   }
 
   .terms {
