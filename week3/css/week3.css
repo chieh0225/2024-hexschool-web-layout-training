@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: "Bruno Ace SC", sans-serif;
+  font-family: "Roboto", "Noto Sans Traditional Chinese", sans-serif;
   line-height: 1.5;
-  background: #000000;
+  background: #ffffff;
 }
 
 img {
@@ -38,8 +38,8 @@ a {
   width: 128px;
 }
 
-.h-98 {
-  height: 98px;
+.h-48 {
+  height: 48px;
 }
 
 .flex {
@@ -57,98 +57,47 @@ a {
 .items-center {
   align-items: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
 .inline-block {
   display: inline-block;
 }
 
-.gap-189 {
-  gap: 189.83px;
+.gap-48 {
+  gap: 48px;
 }
-.gap-134 {
-  gap: 134px;
+.gap-32 {
+  gap: 32px;
 }
-.gap-113 {
-  gap: 113px;
-}
-.gap-28 {
-  gap: 28px;
-}
-.gap-24 {
-  gap: 24px;
-}
-.gap-20 {
-  gap: 20px;
-}
-.gap-16 {
-  gap: 16px;
-}
-.gap-4 {
-  gap: 4px;
+.gap-22 {
+  gap: 22px;
 }
 
 .p-16 {
   padding: 16px;
 }
-.pl-4 {
-  padding-left: 4px;
-}
-.pl-28 {
-  padding-left: 28.5px;
-}
-.pb-32 {
-  padding-bottom: 32px;
-}
-.py-160 {
-  padding: 160px 0px;
-}
-.py-96 {
-  padding: 96px 0px;
-}
-.py-52 {
-  padding: 52px 0px;
-}
-.py-40 {
-  padding: 40px 0px;
+.pt-48 {
+  padding-top: 48px;
 }
 
-.mb-76 {
-  margin-bottom: 76px;
-}
-.mb-36 {
-  margin-bottom: 36px;
-}
 .mb-32 {
   margin-bottom: 32px;
 }
-.mb-28 {
-  margin-bottom: 28px;
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .whitespace-nowrap {
   word-spacing: nowrap;
 }
 
-.text-20 {
-  font-size: 20px;
-}
-.text-24 {
-  font-size: 24px;
-}
-.text-64 {
-  font-size: 64px;
-}
-.text-128 {
-  font-size: 128px;
+.text-36 {
+  font-size: 36px;
 }
 
 .text-white {
   color: #ffffff;
-}
-.text-black {
-  color: #000000;
-}
-.text-green {
-  color: #00ffa3;
 }
 
 .text-right {
@@ -181,12 +130,6 @@ a {
   background-size: cover;
   height: 920px;
 }
-.bg-white {
-  background: white;
-}
-.bg-black {
-  background: #000000;
-}
-.bg-gradient {
-  background: linear-gradient(#050014 100%, #01021e 89%);
+.bg-red {
+  background: #aa0601;
 }
