@@ -1,0 +1,192 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+  background: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  /*  清除圖片下方的空間  */
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.w-636 {
+  width: 636px;
+}
+.w-526 {
+  width: 526px;
+}
+.w-306 {
+  width: 306px;
+}
+.w-128 {
+  width: 128px;
+}
+
+.h-98 {
+  height: 98px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.gap-189 {
+  gap: 189.83px;
+}
+.gap-134 {
+  gap: 134px;
+}
+.gap-113 {
+  gap: 113px;
+}
+.gap-28 {
+  gap: 28px;
+}
+.gap-24 {
+  gap: 24px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-4 {
+  gap: 4px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+.pl-4 {
+  padding-left: 4px;
+}
+.pl-28 {
+  padding-left: 28.5px;
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+.py-160 {
+  padding: 160px 0px;
+}
+.py-96 {
+  padding: 96px 0px;
+}
+.py-52 {
+  padding: 52px 0px;
+}
+.py-40 {
+  padding: 40px 0px;
+}
+
+.mb-76 {
+  margin-bottom: 76px;
+}
+.mb-36 {
+  margin-bottom: 36px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.whitespace-nowrap {
+  word-spacing: nowrap;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+.text-24 {
+  font-size: 24px;
+}
+.text-64 {
+  font-size: 64px;
+}
+.text-128 {
+  font-size: 128px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+.text-black {
+  color: #000000;
+}
+.text-green {
+  color: #00ffa3;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-certer {
+  text-align: center;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e3e3e3;
+  filter: drop-shadow(4px 4px 4px 0px rgba(0, 0, 0, 0.8));
+}
+
+.btn-white {
+  background: #ffffff;
+  border-radius: 32px;
+  padding: 12px 24px;
+}
+.btn-black {
+  background: #000000;
+  border-radius: 32px;
+  padding: 12px 24px;
+}
+
+.bg-1 {
+  background: url(../images-2023week2/background-img.png) no-repeat;
+  background-size: cover;
+  height: 920px;
+}
+.bg-white {
+  background: white;
+}
+.bg-black {
+  background: #000000;
+}
+.bg-gradient {
+  background: linear-gradient(#050014 100%, #01021e 89%);
+}
