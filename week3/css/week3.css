@@ -158,6 +158,11 @@ a {
   .md-flex-wrap {
     flex-wrap: wrap;
   }
+
+  .md-pb-0 {
+    padding-bottom: 0;
+  }
+
   .md-w50 {
     width: 50%;
     padding-top: 12px;
@@ -218,6 +223,10 @@ a {
   }
 
   .md-pt-0 {
-    padding-top: 0;
+    padding-top: 0px;
+  }
+
+  .md-pt-24 {
+    padding-top: 24px;
   }
 }
