@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  /*  清除圖片下方的空間  */
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 160px;
+}
+.header h1,
+.header h2 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+.header_bottom {
+  text-align: end;
+}
+
+.about {
+  width: 636px;
+  margin-left: auto;
+  padding: 48px 0px;
+}
+.about_background {
+  background: #efefef;
+}
+.about p {
+  font-size: 32px;
+}
+
+.information {
+  width: 636px;
+  margin: 80px 0px 120px 0px;
+}
+
+.information_item {
+  margin-bottom: 40px;
+}
+
+.information_item h3 {
+  font-size: 40px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  margin-bottom: 16px;
+}
+
+.information_content p {
+  font-size: 24px;
+}
+.information_content a {
+  font-size: 24px;
+  color: #000000;
+}
+.mb_8 {
+  margin-bottom: 8px;
+}
+.mb_16 {
+  margin-bottom: 16px;
+}
+.mb_12 {
+  margin-bottom: 12px;
+}
+.information_content .years {
+  font-style: italic;
+  font-size: 20px;
+  color: #949494;
+}
+
+.footer {
+  background: #000000;
+}
+.footer_media_menu {
+  text-align: center;
+  padding: 64px 0px;
+}
+.media_item {
+  display: inline-block;
+}
+.ml-40 {
+  margin-left: 40px;
+}
